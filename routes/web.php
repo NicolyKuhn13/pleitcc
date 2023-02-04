@@ -17,10 +17,35 @@ Route::get('/', function () {
 
     $nome = "Nicoly";
     $idade = 18;
-    return view('welcome', ['nome' => $nome, 'idade' => $idade]);
+
+    $arr = [1,2,3,4,5];
+
+    return view('welcome',
+        [
+            'nome' => $nome, 
+            'idade' => $idade,
+            'arr' => $arr,
+        ]);
 });
 
 Route::get('/login', function () {
 
     return view('login');
 });
+
+Route::get('/arquivos', function () {
+
+    $busca = request('search');
+
+    return view('arquivos', ['busca' => $busca]);
+});
+
+Route::get('/arquivos/{id}', function ($id) {
+
+    return view('arquivo', 
+        [
+            'id' => $id,
+        ]);
+});
+
+

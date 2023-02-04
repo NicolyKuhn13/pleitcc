@@ -16,6 +16,7 @@
 <body>
     <div class="bloco1">
         <h1>Bem Vindo</h1>
+        <a href="/">Voltar para a Tela Inicial</a>
     </div>
 </body>
 </html>
