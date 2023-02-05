@@ -12,10 +12,28 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
         <!-- Boots -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+
 
     </head>
     <body>
+        <header>
+            <nav class="navbar.navbar-expand-lg navbar-light">
+                <div class="collapse navbar-collapse" id="navbar">
+                    <a href="/" class="navbar-brand">
+                        <img src="/images/pleiofc.png">
+                    </a>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a href="/" class="nav-link">Cadastrar</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="login" class="nav-link">Login</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
         @yield('content')
         <footer>
             <p>PLEI &copy; 2023</p>
