@@ -1,17 +1,91 @@
 /*! #1464f6 azul
     #eef5fb cinza claro
-    #b7d7fb cinza
+    #b7d7fb azul claro
     #003984 azul escuro*/
 
-*{
+* {
     font-family: 'Montserrat';
 }
 
-body{
+body {
     background-color: #eef5fb;
 }
 
-footer{
+.container {
+    
+}
+
+.first {
+    background-image: linear-gradient(to bottom, #b7d7fb, white);
+}
+
+.second {
+    
+}
+
+/*BOTÕES*/
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: center;
+}
+
+.btn {
+    margin-right: 20px;
+    margin-top: 20px;
+    border: none;
+    padding: 20px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background .3s;
+    border-radius: 5px;
+    background-color: #b6b6b6;
+}
+
+.btn:hover {
+    background-color: #1464f6;
+    color: aliceblue;
+}
+
+.btn1 {
+    order: 1;
+}
+
+.btn2 {
+    order: 2;
+}
+
+.btn3 {
+    order: 3;
+}
+
+.btn4 {
+    order: 4;
+}
+
+.btn5 {
+    order: 5;
+}
+
+/*FOOTER*/
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
+    color: aliceblue;
     background-color: #1464f6;
 }

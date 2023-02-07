@@ -12,7 +12,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
         <!-- Boots -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.2.3/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 
 
     </head>
@@ -21,7 +21,7 @@
             <nav class="navbar.navbar-expand-lg navbar-light">
                 <div class="collapse navbar-collapse" id="navbar">
                     <a href="/" class="navbar-brand">
-                        <img src="/images/pleiofc.png">
+                        <img src="/images/pleiofc.png" height="100" width="100">
                     </a>
                     <ul class="navbar-nav">
                         <li class="nav-item">
@@ -36,7 +36,7 @@
         </header>
         @yield('content')
         <footer>
-            <p>PLEI &copy; 2023</p>
+            <p>PLEI &copy; | 2023</p>
         </footer>
         
     </body>
