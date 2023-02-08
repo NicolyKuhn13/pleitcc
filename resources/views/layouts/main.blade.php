@@ -10,34 +10,25 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@600&display=swap" rel="stylesheet">
         <!-- Boots -->
-        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
 
 
     </head>
     <body>
         <header>
-            <nav class="navbar.navbar-expand-lg navbar-light">
-                <div class="collapse navbar-collapse" id="navbar">
-                    <a href="/" class="navbar-brand">
-                        <img src="/images/pleiofc.png" height="100" width="100">
-                    </a>
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a href="/" class="nav-link">Cadastrar</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="login" class="nav-link">Login</a>
-                        </li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="logo">
+                <a href="/"><img src="../images/pleiofc.png" width="70" height="70"></a>
+            </div>
+            <div class="topnav">
+                <a href="login">Login</a>
+                <a>|</a>
+                <a href="#contact">Cadastrar</a>
+            </div>
         </header>
         @yield('content')
         <footer>
             <p>PLEI &copy; | 2023</p>
         </footer>
-        
     </body>
 </html>

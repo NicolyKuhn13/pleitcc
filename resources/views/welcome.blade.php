@@ -2,10 +2,6 @@
 @section('title', 'Welcome')
 @section('content')
 
-<header>
-    <a href="login"> Login |</a>
-    <p>Cadastrar</p>
-</header>
 <div class="container">
     <div class="first">
         <h1>Escolha o tipo de documento desejado:</h1>
@@ -32,7 +28,7 @@
         </div>
     </div>
     <div class="second">
-
+        <h1>DONT TOUCHE MAY SPAGOTI</h1>
     </div>
 </div>
 

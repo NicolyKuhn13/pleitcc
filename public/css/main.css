@@ -4,23 +4,63 @@
     #003984 azul escuro*/
 
 * {
-    font-family: 'Montserrat';
+    font-family: 'Source Sans 3';
 }
 
 body {
-    background-color: #eef5fb;
+    background-color: #ffffff;
 }
 
 .container {
-    
+    display: flex;
+    flex-direction: row;
 }
 
 .first {
-    background-image: linear-gradient(to bottom, #b7d7fb, white);
+    order: 1;
+    text-align: center;
+    font-size: 15px;
 }
 
 .second {
-    
+    order: 2;
+    background-image: linear-gradient(to bottom, #90c4ff, white);
+    width: 60%;
+    text-align: center;
+    font-size: 15px;
+}
+
+/*HEADER*/
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+
+/*NAVBAR*/
+
+.logo{
+    order: 1;
+}
+
+.topnav {
+    order: 2;
+    background-color: #ffffff;
+    overflow: hidden;
+    border-bottom: #1464f6;
+}
+
+.topnav a {
+    float: left;
+    color: #1464f6;
+    text-align: center;
+    padding: 20px 10px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav p{
+    color: #1464f6;
 }
 
 /*BOTÕES*/
@@ -50,7 +90,8 @@ body {
     cursor: pointer;
     transition: background .3s;
     border-radius: 5px;
-    background-color: #b6b6b6;
+    background-color: #949494;
+    color: #fff;
 }
 
 .btn:hover {
