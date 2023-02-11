@@ -8,27 +8,27 @@
         <div class="buttons">
             <div class="rows">
                 <div class="btn1">
-                    <button class="btn">PLANO DE AULA</button>
+                    <a href="/planoaula"><button class="btn">PLANO DE AULA</button></a>
                 </div>
                 <div class="btn2">
-                    <button class="btn">PLANO DE AULA</button>
+                    <a href="/parecer"><button class="btn">PARECER DESCRITIVO</button></a>
                 </div>
             </div>
             <div class="rows">
                 <div class="btn3">
-                    <button class="btn">PLANO DE AULA</button>
+                    <a href="/avaliativa"><button class="btn">FICHA AVALIATIVA</button></a>
                 </div>
                 <div class="btn4">
-                    <button class="btn">PLANO DE AULA</button>
+                    <a href="/portfolio"><button class="btn">PORTFÓLIO</button></a>
                 </div>
             </div>
             <div class="btn5">
-                <button class="btn">PLANO DE AULA</button>
+                <a href="/registro"><button class="btn">CADERNO REGISTRO</button></a>
             </div>
         </div>
     </div>
     <div class="second">
-        <h1>DONT TOUCHE MAY SPAGOTI</h1>
+        <h1>EDITE E BAIXE SEUS DOCUMENTOS QUANDO TERMINAR</h1>
     </div>
 </div>
 

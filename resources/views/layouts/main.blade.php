@@ -30,5 +30,6 @@
         <footer>
             <p>PLEI &copy; | 2023</p>
         </footer>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
     </body>
 </html>

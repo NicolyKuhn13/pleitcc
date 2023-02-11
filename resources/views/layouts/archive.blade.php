@@ -10,16 +10,35 @@
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
-        <!-- Boots -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3" rel="stylesheet">
 
     </head>
     <body>
+        <header>
+            <div class="logo">
+                <a href="/"><img src="../images/pleiofc.png" width="70" height="70"></a>
+            </div>
+            <div class="topnav">
+                <a href="login">Login</a>
+                <a>|</a>
+                <a href="#contact">Cadastrar</a>
+            </div>
+        </header>
         @yield('content')
-        
+        <div class="one">
+            <div>
+                <label>Título</label>
+                <input type="text" name="input" value="Digite aqui">
+            </div>
+            <div>
+                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+            </div>
+        </div>
+        <div class="second">
+
+        </div>
         <footer>
-            <p>PLEI &copy; 2023</p>
+            <p>PLEI &copy; 2023</p>     
         </footer>
         
     </body>
