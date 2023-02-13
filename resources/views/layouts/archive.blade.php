@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="../css/main.css">
+        <link rel="stylesheet" href="../css/archive.css">
         <script src="../js/main.js"></script>
         <title>@yield('title')</title>
 
@@ -16,7 +16,7 @@
     <body>
         <header>
             <div class="logo">
-                <a href="/"><img src="../images/pleiofc.png" width="70" height="70"></a>
+                <a href="/"><img src="../images/pleibranco.png" width="70" height="70"></a>
             </div>
             <div class="topnav">
                 <a href="login">Login</a>
@@ -27,19 +27,12 @@
         @yield('content')
         <div class="one">
             <div>
-                <label>Título</label>
-                <input type="text" name="input" placeholder="Título do Documento">
-
-                <br>
-
-            </div>
-            <div>
+                <label>Corpo do Textos</label>
                 <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
             </div>
         </div>
         
         <div class="second">
-
         </div>
         <footer>
             <p>PLEI &copy; 2023</p>     

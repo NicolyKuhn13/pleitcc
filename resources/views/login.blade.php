@@ -1,44 +1,146 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <title>Document</title>
+    <title>Login</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3" rel="stylesheet">
 </head>
+<style>
+
+    img{
+        text-align: center;
+        padding: 0px;
+    }
+
+    a{
+        align-self: center;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    body {
+        font-family: 'Inter', sans-serif;
+        margin: 0;
+        padding: 0;
+        color: #023047
+    }
+    
+    .page {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-content: center;
+        justify-content: center;
+        width: 100%;
+        height: 100vh;
+        background-image: linear-gradient(to bottom, #90c4ff, white);
+    }
+    
+    .formLogin {
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 7px;
+        padding: 40px;
+        box-shadow: 10px 10px 40px rgba(83, 83, 83, 0.4);
+        gap: 5px
+    }
+    
+    .areaLogin img {
+        width: 420px;
+    }
+    
+    .formLogin h1 {
+        padding: 0;
+        margin: 0;
+        font-weight: 500;
+        font-size: 2.3em;
+    }
+    
+    .formLogin p {
+        display: inline-block;
+        font-size: 14px;
+        color: #666;
+        margin-bottom: 25px;
+    }
+    
+    .formLogin input {
+        padding: 15px;
+        font-size: 14px;
+        border: 1px solid #ccc;
+        margin-bottom: 20px;
+        margin-top: 5px;
+        border-radius: 4px;
+        transition: all linear 160ms;
+        outline: none;
+    }
+    
+    
+    .formLogin input:focus {
+        border: 1px solid #1464f6;
+    }
+    
+    .formLogin label {
+        font-size: 14px;
+        font-weight: 600;
+    }
+    
+    .formLogin a {
+        display: inline-block;
+        margin-bottom: 20px;
+        font-size: 13px;
+        color: #555;
+        transition: all linear 160ms;
+    }
+    
+    .formLogin a:hover {
+        color: #1464f6;
+    }
+    
+    .btn {
+        background-color: #1464f6;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 600;
+        border: none !important;
+        transition: all linear 160ms;
+        cursor: pointer;
+        margin: 0 !important;
+    
+    }
+    
+    .btn:hover {
+        transform: scale(1.05);
+        background-color: #1464f6;
+    
+    }
+    
+    h1{
+        align-self: center;
+        font-family: 'Source Sans 3';
+    }
+
+    </style>
 <body>
-    <section class="vh-100">
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-6 text-black">
-                    <div class="px-5 ms-xl-4">
-                        <a href="/"><img src="../images/pleiofc.png" width="100" height="100"></a>
-                    </div>
-                    <div class="d-flex align-items-center h-custom-2 px-5 ms-xl-4 mt-5 pt-5 pt-xl-0 mt-xl-n5">
-                        <form style="width: 23rem;">
-                            <h3 class="fw-normal mb-3 pb-3" style="letter-spacing: 1px;">Log in</h3>
-                            <div class="form-outline mb-4">
-                                <input type="email" id="form2Example18" class="form-control form-control-lg" />
-                                <label class="form-label" for="form2Example18">Email address</label>
-                            </div>
-                            <div class="form-outline mb-4">
-                                <input type="password" id="form2Example28" class="form-control form-control-lg" />
-                                <label class="form-label" for="form2Example28">Password</label>
-                            </div>
-                            <div class="pt-1 mb-4">
-                                <button class="btn btn-info btn-lg btn-block" type="button">Login</button>
-                            </div>
-                            <p class="small mb-5 pb-lg-2"><a class="text-muted" href="#!">Forgot password?</a></p>
-                            <p>Don't have an account? <a href="#!" class="link-info">Register here</a></p>
-                        </form>
-                    </div>
-                </div>
-                <div class="col-sm-6 px-0 d-none d-sm-block">
-                    <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/img3.webp" alt="Login image" class="w-100 vh-100" style="object-fit: cover; object-position: left;">
-                </div>
-            </div>
-        </div>
-    </section>
+    <div class="page">
+        <form method="POST" class="formLogin">
+            <a href="/"><img src="../images/pleiofc.png" width="70" height="70"></a>
+            <h1>LOGIN</h1>
+            <p>Digite os seus dados de acesso no campo abaixo.</p>
+            <label for="email">E-mail</label>
+            <input type="email" placeholder="Digite seu e-mail" autofocus="true" />
+            <label for="password">Senha</label>
+            <input type="password" placeholder="Digite seu e-mail" />
+            <a href="/">Esqueci minha senha</a>
+            <input type="submit" value="Acessar" class="btn" />
+        </form>
+    </div>
+    
 </body>
-</html> 
+</html>
