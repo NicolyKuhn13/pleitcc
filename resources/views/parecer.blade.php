@@ -20,32 +20,37 @@
     }
 </script>
 
-    <p>Exibindo arquivo</p>
-
     <form name="form">
+        <div class="answer">
 
-    <label>Escola</label>
-    <input type="text" name="school" placeholder="Nome da Instituição">
+            <label>Título</label>
+            <input type="text" name="input" placeholder="Título do Documento">        
 
-    <br>
+            <label>Escola</label>
+            <input type="text" name="school" placeholder="Nome da Instituição">
 
-    <label>Aluno</label>
-    <input type="text" name="student" placeholder="Nome do Estudante">
+            <br>
+
+            <label>Aluno</label>
+            <input type="text" name="student" placeholder="Nome do Estudante">
     
-    <br>
+            <br>
 
-    <label>Data</label>
-    <input type="date" name="data" placeholder="Escolha a data">
+            <label>Data</label>
+            <input type="date" name="data" placeholder="Escolha a data">
 
-    <br>
+            <br>
 
-    <input type="button" value="Assign values" onClick="AssignValues()">
-    <input type="button" value="Show value 1" onClick="Escola()">
-    <input type="button" value="Show value 2" onClick="Estudante()">
-    <input type="button" value="Show value 3" onClick="Data()">
+            <input type="button" value="Assign values"  onClick="AssignValues()">
+            <input type="button" value="Show value 1" onClick="Escola()">
+            <input type="button" value="Show value 2" onClick="Estudante()">
+            <input type="button" value="Show value 3" onClick="Data()">
 
-    </div>
-
+        </div>
+        <div class="show">
+            
+        </div>
+    </form>
 
 
 @endsection
