@@ -28,18 +28,21 @@
         <div class="one">
             <div>
                 <label>Título</label>
-                <input type="text" name="input" value="Digite aqui">
+                <input type="text" name="input" placeholder="Título do Documento">
+
+                <br>
+
             </div>
             <div>
                 <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
             </div>
         </div>
+        
         <div class="second">
 
         </div>
         <footer>
             <p>PLEI &copy; 2023</p>     
         </footer>
-        
     </body>
 </html>
