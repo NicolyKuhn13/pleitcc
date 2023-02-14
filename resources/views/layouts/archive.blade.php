@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="../css/archive.css">
-        <script src="../js/main.js"></script>
         <title>@yield('title')</title>
 
         <!-- Fonts -->
@@ -12,6 +11,10 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3" rel="stylesheet">
 
+        <!--- Script -->
+
+        <link src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.umd.min.js">
+        
     </head>
     <body>
         <header>
@@ -27,12 +30,10 @@
         @yield('content')
         <div class="one">
             <div>
-                <label>Corpo do Textos</label>
+                <label>Corpo do Texto</label>
+                <br>
                 <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
             </div>
-        </div>
-        
-        <div class="second">
         </div>
         <footer>
             <p>PLEI &copy; 2023</p>     

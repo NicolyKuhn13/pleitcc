@@ -48,9 +48,18 @@
 
         </div>
         <div class="show">
-            
+            <button onclick="gerarPdf()">Download</button>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.umd.min.js"></script>
         </div>
     </form>
 
+    <script>
+        function gerarPdf(){
+            const doc = new jsPDF();
+
+            doc.text("Hello World", 10, 10);
+            doc.save("a4.pdf");
+        }
+    </script>
 
 @endsection
