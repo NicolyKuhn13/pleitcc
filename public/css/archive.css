@@ -10,9 +10,19 @@ header{
 }
 
 .answer{
-  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
 }
 
+.one{
+  order: 1;
+  width: 100%;
+  margin-left: 20px;
+}
+.two{
+  order: 2;
+  margin-right: 100px;
+}
 /*NAVBAR*/
 
 .logo{
@@ -50,4 +60,32 @@ footer {
   background-color: #1464f6;
   height: 40px;
   padding-top: 20px;
+}
+
+.inputs{
+	width: 20%;
+	margin: 0 auto;
+	padding: 10px;
+  border-color: #1464f6;
+	margin-bottom: 10px;
+	border-radius: 5px;
+}
+
+.btn {
+  margin-right: 20px;
+  margin-top: 20px;
+  border: none;
+  padding: 20px;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background .3s;
+  border-radius: 5px;
+  background-color: #949494;
+  color: #fff;
+}
+
+
+.btn:hover {
+  background-color: #1464f6;
+  color: aliceblue;
 }

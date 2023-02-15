@@ -7,77 +7,30 @@ use Illuminate\Http\Request;
 class EditorController extends Controller
 {
     public function index() {
-        $nome = "Nicoly";
-        $idade = 18;
-    
-        $arr = [1,2,3,4,5];
-    
-        return view('welcome',
-            [
-                'nome' => $nome, 
-                'idade' => $idade,
-                'arr' => $arr,
-            ]
-        );
+        return view('welcome');
     }
 
     public function parecer() {
-        $nome = "Nicoly";
-        $idade = 18;
-    
-        $arr = [1,2,3,4,5];
-    
-        return view('parecer',
-            [
-                'nome' => $nome, 
-                'idade' => $idade,
-                'arr' => $arr,
-            ]
-        );
+        return view('parecer');
     }
 
     public function avaliativa() {
-        $nome = "Nicoly";
-        $idade = 18;
-    
-        $arr = [1,2,3,4,5];
-    
-        return view('avaliativa',
-            [
-                'nome' => $nome, 
-                'idade' => $idade,
-                'arr' => $arr,
-            ]
-        );
+        return view('avaliativa');
+    }
+
+    public function cadernoregistro() {
+        return view('cadernoregistro');
+    }
+
+    public function portfolio() { 
+        return view('portfolio');
     }
 
     public function planoaula() {
-        $nome = "Nicoly";
-        $idade = 18;
-    
-        $arr = [1,2,3,4,5];
-    
-        return view('planoaula',
-            [
-                'nome' => $nome, 
-                'idade' => $idade,
-                'arr' => $arr,
-            ]
-        );
+        return view('planoaula');
     }
 
     public function login() {
-        $nome = "Nicoly";
-        $idade = 18;
-    
-        $arr = [1,2,3,4,5];
-    
-        return view('login',
-            [
-                'nome' => $nome, 
-                'idade' => $idade,
-                'arr' => $arr,
-            ]
-        );
+        return view('login');
     }
 }

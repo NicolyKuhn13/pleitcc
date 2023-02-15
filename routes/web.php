@@ -20,3 +20,5 @@ Route::get('/parecer', [EditorController::class, 'parecer']);
 Route::get('/avaliativa', [EditorController::class, 'avaliativa']);
 Route::get('/planoaula', [EditorController::class, 'planoaula']);
 Route::get('/login', [EditorController::class, 'login']);
+Route::get('/portfolio', [EditorController::class, 'portfolio']);
+Route::get('/cadernoregistro', [EditorController::class, 'cadernoregistro']);

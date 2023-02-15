@@ -28,13 +28,6 @@
             </div>
         </header>
         @yield('content')
-        <div class="one">
-            <div>
-                <label>Corpo do Texto</label>
-                <br>
-                <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
-            </div>
-        </div>
         <footer>
             <p>PLEI &copy; 2023</p>     
         </footer>
